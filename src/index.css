@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply text-sand-900 bg-sand-50 antialiased dark:text-sand-100 dark:bg-slate-950;
+  background-image: theme('backgroundImage.radial-harvest');
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-leaf-600 text-white px-5 py-3 font-medium shadow-md transition hover:bg-leaf-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-leaf-500 active:translate-y-px dark:focus-visible:ring-offset-slate-950;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-harvest-500 text-white px-5 py-3 font-medium shadow-md transition hover:bg-harvest-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-harvest-500 active:translate-y-px dark:focus-visible:ring-offset-slate-950;
+}
+
+.card {
+  @apply rounded-xl2 bg-white/80 backdrop-blur border border-sand-200 shadow-sm hover:shadow-lift transition dark:bg-slate-900/70 dark:border-slate-800;
+}
