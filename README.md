@@ -2,6 +2,8 @@
 
 A production-ready landing page for Zestly's “Data Harvest” campaign built with React 18, Tailwind CSS, Vite, and Framer Motion.
 
+You can see the live demo here: estly_landing-page-demo.surge.sh
+
 ## Highlights
 - Modern SaaS aesthetic with seasonal harvest accents (greens, oranges, soft yellows)
 - Framer Motion animations for entrances, interactions, and hover effects
